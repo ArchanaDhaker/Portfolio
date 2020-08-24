@@ -1,0 +1,164 @@
+/* write css here all */
+/* this  body css is a element css not class means it will apply on that element */
+/* try to use less element more class */
+.bodyMain {
+    font-family: "monoscope";
+    width: 100%;
+    height: 100vh;
+    margin: 0 !important;
+}
+
+.mainBody{
+    height: 100%;
+    width: 100%;
+}
+
+.innerBody{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e0e0e0;
+    padding: 8%;
+}
+
+.imgBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    /* align-items: center; */
+}
+
+.w3-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 20px;
+    z-index: 0;
+    margin-top: -110px;
+    /* margin-left: -357px; */
+}
+
+
+.navFooter{
+    margin-right: 10px;
+    height: 28px;
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #76386e;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.parentFooter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    height: 5%;
+}
+
+.description{
+    font-size: 14px;
+    margin: 0 20px 20px 20px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+
+.details{
+    background: ghostwhite;
+    width: 100%;
+}
+
+.hide{
+    display:none; 
+}
+
+h1{
+    margin-top: 70px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.iconBlock{
+    background: bisque;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: x-large;
+}
+
+.backgroundImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Email{
+    /* margin-left: 723px; */
+    /* font-size: large; */
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile{
+    /* margin-left: 723px; */
+    /* font-size: large; */
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.displayDetails{
+    display: flex;
+}
+
+.rightSide{
+    width: 50%;
+    padding: 0 20px 20px 20px;
+    /* margin-top: 83px; */
+}
+
+
+.myLinks{
+    height: 53px;
+    display: flex;
+    justify-content: flex-end;
+} 
+.myInfo{
+    margin-top: 50px;
+}
+
+.linksTab{
+    height: 24px;
+    padding-right: 5px;
+}
+
+.linksImg{
+    height: 24px;
+    width: 24px;
+}
+
+.leftSide{
+    width: 50%;
+    padding: 20px;
+    margin-top: 83px;
+}
+
+.name{
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+}
